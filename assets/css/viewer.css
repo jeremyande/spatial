@@ -1,0 +1,19 @@
+.gsv-viewer {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+
+.gsv-fallback,
+.gsv-missing-src {
+  width: 100%;
+  min-height: 180px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background: #000000;
+  color: #ffffff;
+  padding: 1rem;
+  box-sizing: border-box;
+}
